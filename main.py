@@ -13,12 +13,11 @@ def f(i):
 
     if i == 2:
         T = TogglTime()
-        for year in T.years:
-            T.yearResults(year)
+        T.yearResults('22')
 
     if i == 3:
         T = TogglTime()
-        T.show('21')
+        T.show('22')
 
 if __name__ == '__main__':
     f(3)
